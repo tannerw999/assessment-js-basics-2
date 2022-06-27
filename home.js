@@ -116,6 +116,7 @@ const deals = [
 */
 
 //CODE HERE
+deals.replace("15% Off!", "10% Off")
 
 
 
@@ -133,3 +134,4 @@ const deals = [
 */
 
 //CODE HERE
+deals.replace("   This deal lasts until the end of March! ", "This deal lasts until the end of April!")
