@@ -22,7 +22,7 @@
 */
 
 //CODE HERE
-// const greetUser = (username) => `Welcome back, ${username}`;
+const greetUser = (username) => `Welcome back, ${username}`;
 
 
 

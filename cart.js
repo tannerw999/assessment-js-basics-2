@@ -35,7 +35,7 @@ const cart = [
 
 //CODE HERE
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+const summedPrice = cart.reduce((acc + curr));
 
 
 //////////////////PROBLEM 2////////////////////
@@ -54,7 +54,9 @@ const cart = [
 */
 
 //CODE HERE
-
+calcFinalPrice(cartTotal, couponValue, tax) => {
+    cart.cartTotal = cart.tax * (1 - couponValue)
+}
 
 
 //////////////////PROBLEM 3////////////////////
@@ -80,6 +82,20 @@ const cart = [
 /*
     TEXT ANSWER HERE
 
+    name: Name is an important identifier for the restaurant to know.
+       Datatype: Will be a string since it will contain only letters.
+
+    address: Since this is a cart im assuming it will be delivered or picked up.  Also need address if paying with CC to verify card info.
+        Datatype: Will also be a string since address may contain letters and numbers.
+
+    returning customer: Good information for the restaurant to know to see how many new vs. repeat customers they have.
+        Datatype: Boolean since it's a yes or no question and can be determined by true or false.
+
+    payment type: Type of payment being used; cash or credit card
+        Datatype: Will be a string because it will be only letters.
+
+    credit card number: Payment number if paying with credit card.
+        Datatype: Number since credit card # contain only numbers.
 */
 
 /*
@@ -88,3 +104,12 @@ const cart = [
 */
 
 //CODE HERE
+const customer = [
+    {
+        name: "Tanner",
+        address: "1483 South 320 East Orem, UT",
+        returning: "Yes",
+        paymentType: "Credit Card",
+        creditCardNumber: 0000 1111 2222 3333,
+    }
+]
