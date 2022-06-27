@@ -203,7 +203,9 @@ console.log(filteredFood);
 */
 
 //CODE HERE
-
+function filterByProperty(property, number, type) {
+    let arr = []
+}
 
 /*
     Invoke the `filterByProperty` function passing
@@ -213,3 +215,5 @@ console.log(filteredFood);
 */
 
 //CODE HERE
+filterByProperty()
+console.log(arr)
