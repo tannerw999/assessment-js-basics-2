@@ -54,8 +54,8 @@ const summedPrice = cart.reduce((acc + curr));
 */
 
 //CODE HERE
-calcFinalPrice(cartTotal, couponValue, tax) => {
-    cart.cartTotal = cart.tax * (1 - couponValue)
+calcFinalPrice(cartTotal, couponValue, tax) => { 
+    cart.cartTotal = cart.tax * (1 - couponValue);
 }
 
 
@@ -110,6 +110,6 @@ const customer = [
         address: "1483 South 320 East Orem, UT",
         returning: "Yes",
         paymentType: "Credit Card",
-        creditCardNumber: 0000 1111 2222 3333,
+        creditCardNumber: 0000111122223333,
     }
 ]
