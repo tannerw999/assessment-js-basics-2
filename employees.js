@@ -93,7 +93,19 @@ let empTwo = {
 */
 
 //CODE HERE
+class Manager extends Employee {
+    constructor(name, shifts, employees){
+        super(name, shifts)
 
+        this.employees = []
+    }
+    getEmployees(){
+        console.log(`${this.name} manages ${this.employees}`)
+    }
+    addEmployee(emp){
+        employees.push(emp)
+    }
+}
 
 
 /*
@@ -108,7 +120,7 @@ let empTwo = {
 */
 
 //CODE HERE
-
+let manager = new Manager("Winston", "weekday mornings and weekday afternoons", "Cece and Schmidt")
 
 /*
     Call the `getEmployees` method on the
@@ -116,7 +128,7 @@ let empTwo = {
 */
 
 //CODE HERE
-
+manager.getEmployees()
 /*
     Call the `addEmployee` method on the 
     `manager` object passing in the string 
@@ -124,7 +136,7 @@ let empTwo = {
 */
 
 //CODE HERE 
-
+manager.addEmployee("Coach")
 /*
     Call the `getEmployees` method on the
     `manager` object again to confirm 
@@ -132,3 +144,4 @@ let empTwo = {
 */
 
 //CODE HERE
+manager.getEmployees()
